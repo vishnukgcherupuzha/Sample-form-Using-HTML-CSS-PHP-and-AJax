@@ -4,7 +4,7 @@ if( isset($_POST['n']) && isset($_POST['e'])  && isset($_POST['mo']) && isset($_
     $e = htmlspecialchars($_POST['e']);
     $mo =htmlspecialchars( $_POST['mo']);
 	$m = htmlspecialchars(($_POST['m']));
-	$to = "vishnukgcherupuzha@gmail.com";	//Mail Id to where yo wnat to send the mail
+	$to = "sample@gmail.com";	//Mail Id to where yo wnat to send the mail
 	$subject = 'Subject!!';  // Subject to be displayed
     $message ='<h2> Contact request</h2>  
     <h4>Name</h4><p>'.$n.'</p>
